@@ -18,9 +18,19 @@ h2
 {
 	font-size: 						1.5em;
 }
+header .row{
+    display: flex;
+    height: 100%;
+    align-items: center
+
+}
+header .row .centrar{
+    flex-flow: row wrap;
+    justify-content: center;
+}
 li a
 {
-    color: 							#000;
+    color: 							#000;/*sin uso*/
     display: 						block;
     padding: 						6px;
     vertical-align: 				top;
@@ -29,31 +39,31 @@ li a
 }
 li a:hover
 {
-    background-color: 				#bcaaa4;
+    background-color: 				#bcaaa4;/*sin uso*/
     visibility: 					visible;
 }
 li ul
 {
-    background-color:  				#11792C;
+    background-color:  				#11792C;/*sin uso*/
     display: 						none;
     font-size: 						0.9em;
     padding-left: 					20px;
 }
 li:hover ul
 {
- display: 							block;
+ display: 							block;/*sin uso*/
 }
 
 table
 {
-	margin-left: 					10%;
+	margin-left: 					10%;/*sin uso*/
   	margin-right: 					10%;
 	text-align: 					center;
 	width: 							80%;
 }
 ul
 {
-    list-style-type: 				none;
+    list-style-type: 				none;/*sin uso*/
     padding: 						0px;
 }
 /* IDs */
@@ -61,41 +71,41 @@ ul
 
 #logo
 {
-	height: 						300px;
+	height: 						300px;/*sin uso*/
 	width: 							100%;
 }
 
 /* Clases */
 .banderas
 {
-	background-color: 				transparent;
+	background-color: 				transparent;/*sin uso*/
 }
 .banderas:hover
 {
-	border-color: 					#ffeb3b;
+	border-color: 					#ffeb3b;/*sin uso*/
 	border-style: 					solid;
 	border-width: 					5px;
 }
 .contenidos
 {
-	background-color:  				#dcedc8;
+	background-color:  				#dcedc8;/*sin uso*/
 	margin-left: 					0%;
   	margin-right: 					0%;
 	width: 							80%;
 }
 .contenidos a
 {
-	color: 							#000;
+	color: 							#000;/*sin uso*/
     text-decoration:  				none;
 }
 .contenidos a:hover
-{
-	background-color: 				#bcaaa4;
+{/*sin uso*/
+	background-color: 				#bcaaa4;/*sin uso*/
 }
 
 .f-blanco
 {
-	background-color: 				#fff;
+	background-color: 				#fff;/*sin uso*/
 	padding-bottom: 				10px;
 	padding-left:   				10px;
 	padding-right:  				10px;
@@ -110,11 +120,11 @@ ul
 }
 .mapa
 {
-	padding-top: 10px;
+	padding-top: 10px;/*sin uso*/
 }
 .menu
 {
-	background-color: 				#8bc34a;
+	background-color: 				#8bc34a;/*sin uso*/
 	color: 							#000;
 	font-size: 						1em;
 	text-align: 					left;
@@ -123,71 +133,71 @@ ul
 }
 .pie
 {
-	background-color: 				#33691e;
+	background-color: 				#33691e;/*sin uso*/
 	color: 							#FFF;
 	text-align: 					center;
 }
 
 .td-bicicleta-img
 {
-	background-image:  				url("../img/bicicletas.jpg");
+	background-image:  				url("../img/bicicletas.jpg");/*sin uso*/
 	background-position: 			center;
 	background-repeat: 				no-repeat;
 	background-size: 				100%;
 }
 .td-equipamento-img
 {
-	background-image:  				url("../img/equipamiento.jpg");
+	background-image:  				url("../img/equipamiento.jpg");/*sin uso*/
 	background-position: 			center;
 	background-repeat: 				no-repeat;
 	background-size: 				100%;
 }
 .td-ropa-img
 {
-	background-image:  				url("../img/ropa.jpg");
+	background-image:  				url("../img/ropa.jpg");/*sin uso*/
 	background-position: 			center;
 	background-repeat: 				no-repeat;
 	background-size: 				100%;
 }
 .td-70
 {
-	width: 							70%;
+	width: 							70%;/*sin uso*/
 }
 .td-30
 {
-	width: 							30%;
+	width: 							30%;/*sin uso*/
 }
 .tipo
 {
-	background-color: 				#7CB342;
+	background-color: 				#7CB342;/*sin uso*/
 	color: 							#000;
 	padding-left: 					20px;
 }
 .tipo1
 {
-    background-color: 				#9CCC65;
+    background-color: 				#9CCC65;/*sin uso*/
 	color: 							#000;
 	padding-left: 					20px;
 }
 .tipo2
 {
-    background-color: 				#aed581;
+    background-color: 				#aed581;/*sin uso*/
 	color: 							#000;
 	padding-left: 					20px;
 }
 .tipo3
 {
-    background-color: 				#c5e1a5;
+    background-color: 				#c5e1a5;/*sin uso*/
 	color: 							#000;
 	padding-left: 					20px;
 }
 .tipo4
 {
-    background-color: 				#9CCC65;
+    background-color: 				#9CCC65;/*sin uso*/
 	color: 							#000;
 	padding-left: 					20px;
 }
 .t-encabezado
 {
-	height: 						300px;
+	height: 						300px;/*sin uso*/
 }
