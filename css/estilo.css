@@ -7,16 +7,13 @@
 /* Etiquetas */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
 }
 
 h1 {
-    text-align: center;
     color: #FFF;
-}
-
-h2 {
-    font-size: 1.5em;
+    text-align: center;
 }
 
 header .row {
@@ -54,7 +51,6 @@ li a:hover {
 li ul {
     background-color: #11792C;
     display: none;
-    font-size: 0.9em;
     padding-left: 20px;
 }
 
@@ -103,6 +99,11 @@ ul {
     background-color: #bcaaa4;
 }
 
+.gif {
+    width: 125px;
+    padding: 0px;
+}
+
 .logo {
     background-image: url("../img/bike.jpg");
     background-position: center;
@@ -112,6 +113,14 @@ ul {
 
 .mapa {
     padding: 10px;
+}
+
+.panel-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .pie {
@@ -127,17 +136,17 @@ ul {
     width: 80%;
 }
 
-.organigrama {
+.lista {
     list-style-type: circle;
     padding: 20px;
 }
 
-.organigrama ul {
+.lista ul {
     list-style-type: square;
     padding: 20px;
 }
 
-.organigrama ul ul {
+.lista ul ul {
     list-style-type: disc;
     padding: 20px;
 }
